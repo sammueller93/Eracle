@@ -30,6 +30,44 @@ a:focus {
 --structure
 */
 
+.site-header, .navigation-bar, .site-content, .site-footer {
+  width: 58.75em; /* 940 / 16 */
+  margin: auto;
+}
+
+/* header */
+
+.header-outer {
+  background-color: #21b7c6;
+}
+
+.logo {
+  background-color: #eb6841;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2.625em;
+  padding: 0.3em 1.25em;
+  letter-spacing: 0.05em;
+  float: left;
+}
+
+.tagline {
+  font-style: italic;
+  color: #fff;
+  font-size: 0.875em;
+  float: right;
+  margin-top: 2em;
+}
+
 /*
 --general use
 */
+
+.group:before, .group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
